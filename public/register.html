@@ -22,21 +22,22 @@
 				<a href="/"><img src="bbi-logo.png" alt="Universe" class="brand-logo"></a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a class="btn transparent" href="">Donate</a></li>
-					<li><a class="btn transparent" href="">Check Donors</a></li>
+					<li><a class="btn transparent" href="/donate">Donate</a></li>
+					<li><a class="btn transparent" href="/register">Check Donors</a></li>
 				</ul>
 			</div>
 		</nav>
-
 		
+		<ul class="sidenav" id="mobile-demo">
+			<li><a class="btn red" href="/donate">Donate</a></li>
+			<li><a class="btn red" href="/bank?blood=&city=&zeros=on">Search Donors</a></li>
+		</ul>
 
-
-		
-		<div class="center white-text">
+	             <div class="center white-text">
 			<h4>Create or Log in to a profile to continue</h4>
 		</div>
 		<div class="row container" style="margin-top: 20px;">
-			<form class="col s12 l5 white-text" action="" method="" autocomplete="">
+			<form class="col s12 l5 white-text" action="/register" method="POST" autocomplete="new-password">
 				<div class="row">
 					<div class="input-field col l12 s12">
 						<!-- Name -->
